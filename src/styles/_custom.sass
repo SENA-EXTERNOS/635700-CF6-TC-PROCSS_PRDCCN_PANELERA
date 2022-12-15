@@ -25,3 +25,138 @@
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: #12263F
+
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: $color-acento-contenido
+  opacity: 4.0
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+
+.nav-holder2:before
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.9
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 73%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: 5%
+  h4, p
+    color: #12263F
+    opacity: 1
+
+
+.color-morado
+  background-color: #F0E9FB !important
+
+.lista-ul--color li > i:first-of-type 
+  color: $color-secundario !important
+
+.tarjeta--gris
+  background-color: #F0FCD4 !important
+
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido !important
+
+.acordion__accion__btn--b
+  background-color: $color-acento-contenido !important
+
+.lista-ol--cuadro__vineta span 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  line-height: 1em
+  color: #12263F !important
+
+.lista-ol--separador li, .lista-ul--separador li 
+  padding-bottom: 15px
+  margin-bottom: 15px
+  border-bottom: solid 0px #b0c0d2
+
+.tarjeta--slyder
+  background-color: #F2FFFD !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #E2872C !important
+
+.slyder-a__bullets__item--active 
+  background-color: #E2872C
+  border-color: #E2872C
+  opacity: 1
+
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #E2872C !important
+
+.img-infografica-b__modal
+  background-color: #FBEDDF !important
+
+.img-infografica-b__modal__contenido div > * 
+  color: #12263F !important
+
+.fa-times
+  color: #5000C7 !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: #12263F
