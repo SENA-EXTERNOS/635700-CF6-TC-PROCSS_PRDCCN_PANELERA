@@ -232,8 +232,8 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
-            ol.lista-ol--cuadro.lista-ol--separador
-              li 
+            ol.lista-ol--cuadro
+              li
                 .lista-ol--cuadro__vineta
                   span a
                 | Almacenamiento de jarabe procedente de la molienda de caña en la planta.
