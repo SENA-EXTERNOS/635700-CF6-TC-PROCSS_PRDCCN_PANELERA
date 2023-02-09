@@ -431,7 +431,7 @@
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
             h3 Calidad de la caña
-            p.mb-5 Si se pretende producir miel se <b>“recomienda utilizar cañas inmaduras o sobremaduras, con alto contenido de azúcares reductores, para disminuir su cristalización”</b>. La miel de caña de buena calidad cumple con las siguientes características: buen suelo y su mejoramiento, diversidades de caña de azúcar adecuadas a la agroecología de cada región, fertilización adecuada, buena distribución de lluvia y/o riego durante todo el año, luz solar constante, proceso de transferencia de calor eficiente y excelentes condiciones sanitarias (Prada, 2002).
+            p.mb-5 Si se pretende producir miel se “recomienda utilizar cañas inmaduras o sobremaduras, con alto contenido de azúcares reductores, para disminuir su cristalización”. La miel de caña de buena calidad cumple con las siguientes características: buen suelo y su mejoramiento, diversidades de caña de azúcar adecuadas a la agroecología de cada región, fertilización adecuada, buena distribución de lluvia y/o riego durante todo el año, luz solar constante, proceso de transferencia de calor eficiente y excelentes condiciones sanitarias (Prada, 2002).
         
           .col-md-4
             figure
@@ -453,25 +453,27 @@
     p.mb-5 A continuación, se describen los pasos para el procesamiento de caña panelera para la obtención de miel:
 
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+
+
+    ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/T1/img-25.svg', alt='Texto que describa la imagen')
         
 
-      div(x="12.2%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="12.2%" y="84%" tooltip="" numero="")
         h5 Extracción de jugos
         p La caña se somete a compresión en los rodillos o mazas del molino, que facilitan el drenaje del líquido de los tallos. Aquellos con 58 % a 63 % de recuperación se consideraron satisfactorios. Los productos finales en esta etapa son jugo crudo y bagazo; el primero, es la materia prima para hacer miel de caña de azúcar y el segundo, es el combustible que se utiliza para el quemador después del secado, (Osorio, 2007).
 
-      div(x="37.8%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="37.8%" y="84%" tooltip="" numero="")
         .h5.mb-2 Limpieza de jugos
         p En esta fase se retiran impurezas gruesas de carácter no nutricional por medios físicos (decantación y flotación en el prelimpiador), calientes (en las primeras pailas) y bioquímicos (con los aglutinantes). El jugo crudo (guarapo) y sin clarificar se limpia en frío utilizando un sistema de decantación natural, por efecto de la gravedad, desarrollado por el centro de investigación para el mejoramiento de la agroindustria panelera (CIMPA) y que se ha denominado prelimpiador. Este conector retiene por precipitación una importante proporción de los sólidos contenidos en el jugo de la caña, como partículas de tierra, lodo y arena; paralelamente, por flotación, el prelimpiador separa partículas livianas como bagacillo, hojas, insectos, etc., (Osorio, 2007).
 
-      div(x="63.8%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="63.8%" y="84%" tooltip="" numero="")
         .h5.mb-2 Clarificación
         p Esta fase se lleva a cabo en una paila recibidora o descachazadora y consiste en remover la torta de filtración de sólidos suspendidos como caña, hojas, arena, tierra, materia coloidal y sólidos solubles del jugo de caña. La limpieza de los jugos ocurre gracias a la acción combinada del calentamiento suministrado por la hornilla y la acción aglutinante de ciertos compuestos naturales como los cadillos, el balso, el guásimo, el juan blanco, el san Joaquín, entre otros. El control de esta operación debe ser preciso para la calidad del jugo si se desea producir miel, pues la presencia de precipitaciones no eliminados en este proceso afecta directamente la calidad del producto final, reflejada en una cristalización, (Osorio, 2007).
 
-      div(x="89.7%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="89.7%" y="84%" tooltip="" numero="")
         .h5.mb-2 Evaporación y concentración
         p Una vez que se completa la clarificación, comienza la evaporación del agua, aumentando la concentración de azúcares en el jugo. La eficiencia térmica de la hornilla, y su efecto sobre los jugos, se cuentan entre el conjunto de factores que influyen en la calidad de la panela. Cuando los jugos alcanzan un contenido de sólidos solubles cercano a los 70 ºBrix adquieren el nombre de mieles, y se inicia la concentración, (Osorio, 2007).
 
