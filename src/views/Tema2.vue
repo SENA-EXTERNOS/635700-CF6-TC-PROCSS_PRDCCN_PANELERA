@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/T2/img-1.svg', alt='Texto que describa la imagen')
       .col-md-10.mb-4.mb-md-0
-        p.mb-5 Durante la cristalización, el orden del sistema aumenta, partiendo de un sistema relativamente desordenado (solución) a un sistema más ordenado (cristal). La mayoría de las transiciones de esta fase, que se encuentran en la práctica, ocurren a presión constante, por lo que la energía de Gibbs se usa para describir un sistema en el que los períodos están en equilibrio. Por lo tanto, para que ocurra una transición de fase en un sistema, este efecto debe estar asociado con una disminución en la energía de Gibbs total del sistema, es decir ΔG<0 a presión y temperatura constantes. Por lo tanto, cuanto mayor sea la energía de Gibbs, mayor será la fuerza promotora de la cristalización, (Grases et al., 2000).
+        p.mb-5 Durante la cristalización, el orden del sistema aumenta, partiendo de un sistema relativamente desordenado (solución) a un sistema más ordenado (cristal). La mayoría de las transiciones de esta fase, que se encuentran en la práctica, ocurren a presión constante, por lo que la energía de <i>Gibbs</i> se usa para describir un sistema en el que los períodos están en equilibrio. Por lo tanto, para que ocurra una transición de fase en un sistema, este efecto debe estar asociado con una disminución en la energía de <i>Gibbs</i> total del sistema, es decir ΔG<0 a presión y temperatura constantes. Por lo tanto, cuanto mayor sea la energía de<i> Gibbs</i>, mayor será la fuerza promotora de la cristalización, (Grases et al., 2000).
 
       
     p.mb-5 A continuación, se exponen las fases de cambio del producto para llegar a la cristalización: 
@@ -198,7 +198,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Disposiciones
+            h4.mb-3 <i>Disposiciones</i>
             ol.lista-ol--cuadro
               li
                 .lista-ol--cuadro__vineta
@@ -236,7 +236,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Procedimiento para el uso adecuado de elementos de protección personal
+            h4.mb-3 <i>Procedimiento para el uso adecuado de elementos de protección personal</i>
             p.mb-4 El uso correcto de protección personal responde a la seguridad de los empleados y la no contaminación de la panela.
             p.mb-4 Para evitar en lo posible la contaminación, el personal del trapiche debe cumplir con los siguientes requisitos: 
             p 
@@ -265,8 +265,8 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-2 Disposiciones para el uso de elementos de protección personal:
-            p.mb-4 <b>Cabeza</b>
+            h4.mb-2 <i>Disposiciones para el uso de elementos de protección personal:</i>
+            p.mb-4 <i><b>Cabeza</b></i>
             p.mb-1 Se recomienda una cubierta superior o cofia, si se expone a la humedad o bacterias.
             ol.lista-ol--cuadro
               li
@@ -298,7 +298,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Ojos
+            h4.mb-3 <i>Ojos</i>
             p.mb-2 Se recomienda el uso de gafas de protección: en caso de exposición a salpicaduras de productos químicos o en presencia de gases, vapores y humos.
             ol.lista-ol--cuadro
               li
@@ -328,7 +328,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Sistema Respiratorio
+            h4.mb-3 <i>Sistema Respiratorio</i>
             p.mb-2 Se sugiere usar una máscara facial si se encuentra en un entorno con partículas en el aire, como polvo de algodón o cemento y otras partículas de piezas pulidas.
             ol.lista-ol--cuadro
               li
@@ -362,7 +362,7 @@
         
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Oídos
+            h4.mb-3 <i>Oídos</i>
             p.mb-2 Se recomienda el uso de tapa oídos tipo Copa u Orejeras, los cuales atenúan el ruido 33 dB aproximadamente. Cubren la totalidad de la oreja. 
             ol.lista-ol--cuadro
               li
@@ -398,7 +398,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Manos 
+            h4.mb-3 <i>Manos </i>
             p.mb-2 Se recomienda el uso de guantes de carnaza.
             ol.lista-ol--cuadro
               li
@@ -434,7 +434,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Manos 
+            h4.mb-3 <i>Manos </i>
             p.mb-2 Guantes aislantes de altas temperaturas largas.
             ol.lista-ol--cuadro
               li
@@ -472,7 +472,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Píes 
+            h4.mb-3 <i>Píes </i>
             p.mb-2 Se recomienda el uso de botas de seguridad Impermeables: 
             ol.lista-ol--cuadro
               li
@@ -519,7 +519,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 Cuerpo 
+            h4.mb-3 <i>Cuerpo </i>
             p.mb-2 Se recomienda el uso del overol blanco o de colores claros con cierres o cremalleras. 
             ol.lista-ol--cuadro
               li

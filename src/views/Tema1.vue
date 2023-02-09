@@ -332,7 +332,7 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 4")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 <b>“La paila de concentración tiene una capacidad nominal de 220 Kilogramos / hora”</b> (Granja & Granja, 2013, p. 43).
+            p.mb-5 “La paila de concentración tiene una capacidad nominal de 220 Kilogramos / hora” (Granja & Granja, 2013, p. 43).
         
           .col-md-4
             figure
@@ -416,7 +416,7 @@
     p.mb-5 El trasiego de mieles tiene implicaciones y parámetros importantes que se deben tener muy en cuenta para la efectividad del proceso. Estos son:
 
 
-    .tarjeta.tarjeta--slyder.p-4.mb-5
+    .tarjeta.tarjeta--slyder.p-4.mb-5.fnd-1
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
