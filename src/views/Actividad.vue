@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Cristalización y procedimiento de ajustes
-        p.mb-4 A continuación, se presenta una actividad de aprendizaje que está encaminada a validar los aprendizajes que ha podido adquirir con el desarrollo de este componente formativo. Por lo tanto, lo invitamos a disponerse a realizarla; para ello, seleccione la respuesta que según el enunciado considere es la correcta.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

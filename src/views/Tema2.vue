@@ -7,10 +7,6 @@
         span 2
       h1 Procedimientos de ajuste
 
-
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Cristalización
-
     .row.justify-content-around.align-items-center
       .col-md-2
         figure
@@ -19,7 +15,7 @@
         p.mb-5 Durante la cristalización, el orden del sistema aumenta, partiendo de un sistema relativamente desordenado (solución) a un sistema más ordenado (cristal). La mayoría de las transiciones de esta fase, que se encuentran en la práctica, ocurren a presión constante, por lo que la energía de Gibbs se usa para describir un sistema en el que los períodos están en equilibrio. Por lo tanto, para que ocurra una transición de fase en un sistema, este efecto debe estar asociado con una disminución en la energía de Gibbs total del sistema, es decir ΔG<0 a presión y temperatura constantes. Por lo tanto, cuanto mayor sea la energía de Gibbs, mayor será la fuerza promotora de la cristalización, (Grases et al., 2000).
 
       
-    p.mb-5 A continuación, se exponen las fases de cambio del producto para llegar a la cristalización. 
+    p.mb-5 A continuación, se exponen las fases de cambio del producto para llegar a la cristalización: 
 
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
@@ -34,7 +30,7 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 2")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 El proceso de cristalización de la miel se ve afectado por varios factores, entre ellos:
+            p.mb-5 El proceso de cristalización de la miel, se ve afectado por varios factores, entre ellos: sobresaturación, temperatura de almacenamiento, presencia de partículas.
         
           .col-md-4
             figure
@@ -42,7 +38,8 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 3")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 <b>Sobresaturación:</b> La reacción tiene una velocidad limitada en la superficie y todo el proceso consta de dos fases sucesivas, una fase de difusión y una fase interfacial, ninguna de las cuales ocurre si la solución no está sobresaturada. Ambos procesos ayudan a determinar la tasa de crecimiento de los cristales, pero mientras que la resistencia al transporte molecular domina a la sobresaturación “normal” y a altas temperaturas (superiores a 50 °C), la resistencia de los enlaces moleculares juega un papel importante a baja temperatura y sobresaturación, (García, 2001).
+            p.mb-5 <b>Sobresaturación:</b> la reacción tiene una velocidad limitada en la superficie y todo el proceso consta de dos fases sucesivas, una fase de difusión y una fase interfacial, y ninguna de estas ocurre si la solución no está sobresaturada. Ambos procesos ayudan a determinar la tasa de crecimiento de los cristales, pero mientras que la resistencia al transporte molecular domina a la sobresaturación “normal” y a altas temperaturas (superiores a 50 oC), la resistencia de los enlaces moleculares, juega un papel importante a baja temperatura y sobresaturación. (García, 2001)
+
         
           .col-md-4
             figure
@@ -50,7 +47,7 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 4")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 <b>Temperatura de almacenamiento:</b> Es bien sabido que la velocidad de cristalización, la forma y el tamaño de las partículas dependen de la constitución de la miel y la temperatura de almacenamiento. Se observaron dos tendencias distintas: a medida que disminuye la temperatura, disminuye la solubilidad del azúcar, favoreciendo la granulación o cristalización; por el contrario, a bajas temperaturas, la viscosidad aumenta y la movilidad molecular se retrasa o se reduce, lo que da como resultado velocidades de cristalización reducidas, (Lupano, 1997).
+            p.mb-5 <b>Temperatura de almacenamiento:</b> es bien sabido que la velocidad de cristalización, la forma y el tamaño de las partículas, dependen de la constitución de la miel y la temperatura de almacenamiento. Se observaron dos tendencias distintas: a medida que disminuye la temperatura, disminuye la solubilidad del azúcar, favoreciendo la granulación o cristalización; por el contrario, a bajas temperaturas, la viscosidad aumenta y la movilidad molecular se retrasa o se reduce, lo que da como resultado, velocidades de cristalización reducidas. (Lupano, 1997)
         
           .col-md-4
             figure
@@ -58,19 +55,15 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 5")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 <b>Presencia de partículas:</b> La presencia de impurezas crea defectos superficiales que favorecen el crecimiento de planos cristalinos, (García, 2001).
+            p.mb-5 <b>Presencia de partículas:</b> la presencia de impurezas crea defectos superficiales que favorecen el crecimiento de planos cristalinos (García, 2001).
+
         
           .col-md-4
             figure
               img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen')
 
 
-
-
-    Separador
-
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Buenas prácticas de manufactura
+    h2 Buenas prácticas de manufactura
 
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
@@ -78,21 +71,19 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-7.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        h4.mb-3 Descripción técnico-Sanitaria según Decreto 3075 de 1997, Art. 2:
-        <br>
-        <br>
-        p.mb-0 Buenas prácticas de manufactura: Son los principios básicos y prácticas generales de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y distribución de alimentos para consumo humano, con el objeto de garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se disminuyan los riesgos inherentes a la producción.
+        
+        p.mb-0 Se entiende por Buenas Prácticas de Manufactura BPM, aquellos principios básicos y prácticas generales de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y distribución de alimentos para consumo humano, con el objeto de garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se disminuyan los riesgos inherentes a la producción.
 
 
 
     ul.lista-ul--color.lista-ul--separador
       li 
         i.fas.fa-leaf
-        | <b>Resolución 779 de 2006:</b>
+        | <b>¿Qué dice la resolución 779 de 2006, en relación con las BPM?</b>
 
 
 
-    .row.mb-5
+    .row.mb-3
       .col-md-4
         figure
           img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
@@ -115,7 +106,8 @@
             .lista-ol--cuadro__vineta
               span d
             | Las centrales de acopio y procesamiento de mieles deben garantizar la inocuidad de las mieles utilizadas en el procesamiento de la panela.
-
+            
+    p.mb-5 El siguiente video muestra las condiciones sanitarias para evaluar los trapiches paneleros, según se establecen en la Resolución 779/2006. Visualícelo con atención y procure tomar nota, en su libreta personal de apuntes, de los aspectos más destacados:
 
     figure.mb-5
       .video
@@ -145,7 +137,8 @@
         i.fas.fa-leaf
         | <b>Sistema de Control</b>
 
-    p.mb-5 La implementación del procedimiento de control asegura la mejora continua en todas las fases de la fabricación de panela.
+    p La implementación del procedimiento de control asegura la mejora continua en todas las fases de la fabricación de panela.
+    p.mb-5 Entre muchos aspectos importantes del control, se pueden mencionar los siguientes:
 
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
@@ -191,7 +184,7 @@
         h2.text-center Visitas de inspección
         p.text-center La autoridad sanitaria deberá realizar dos (2) inspecciones anuales a los ingenios azucareros para verificar las condiciones higiénicas especificadas en los reglamentos técnicos.
 
-      .tarjeta.config-slyder-F.p-4
+      .tarjeta.config-slyder-F.p-3
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
@@ -199,7 +192,7 @@
         p.text-center La evaluación de la conformidad debe ser realizada por la Administración Estatal de Alimentos y Medicamentos, el Invima y las unidades territoriales estructurales de salud con competencia técnica. El certificado de evaluación de la Conformidad podrá ser expedido por el Instituto Nacional de Atención de Medicamentos y Alimentos, Invima, o cuando sea del caso, por los organismos de certificación acreditados o reconocidos por dicha entidad.
 
 
-
+    p.mb-5 En cuanto al procedimiento para el ingreso correcto del personal al trapiche panelero, se deben tener presentes los siguientes aspectos:
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
       SlyderA(tipo="b")
@@ -568,14 +561,11 @@
 
 
 
-    Separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Normas sanitarias para la producción de panela 
+    h2 Normas sanitarias para la producción de panela 
 
-    p.mb-5 A continuación, las normas sanitarias que se deben cumplir en la producción panelera 
-
-
+    p Se trata de aquel conjunto de criterios y lineamientos que favorecerán la producción, a la vez que aseguran la salubridad del producto, la conservación de la salud y el bienestar de las personas implicadas en el proceso y la conservación de implementos e infraestructura, libres de agentes que puedan traer afectación. 
+    p.mb-5 A continuación, las normas sanitarias que se deben cumplir en la producción panelera:
 
     .row.justify-content-center.align-items-center(titulo="")
       .col-md-8.mb-4.mb-md-0
@@ -587,7 +577,7 @@
 
           .row.justify-content-around.align-items-center(titulo="Resolución 2674 de 2013")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 [Ministerio de Salud y Protección Social]. Establece los requisitos y contextos bajo las cuales el Instituto nacional de medicamentos y alimentos – INVIMA Como autoridad de salud pública, debe emitir tarjetas, permisos o informes sanitarios.
+              p.mb-4 Establece los requisitos y contextos bajo las cuales el Instituto nacional de medicamentos y alimentos – INVIMA Como autoridad de salud pública, debe emitir tarjetas, permisos o informes sanitarios.
           
 
           .row.justify-content-around.align-items-center(titulo="Decreto 3075 de 1997")
@@ -614,7 +604,7 @@
 
           .row.justify-content-around.align-items-center(titulo="Resolución 3462 de 2008")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 [Ministerio de Protección Social]. Procedimiento de registro para la instalación de centros de acopio de miel virgen de ingenios.
+              p.mb-4 Procedimiento de registro para la instalación de centros de acopio de miel virgen de ingenios.
 
       .col-md-4
         figure
@@ -624,7 +614,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8
         .cajon.color-acento-botones.p-4.mb-4.color-morado
-          p <b>¡Felicitaciones!</b> Ha finalizado el desarrollo de los contenidos de este proceso de aprendizaje, a través del cual ha aprendido sobre cristalización y tipo de productos, proceso de concentración de jugo de caña (cocinar jugo), trasiego de mieles, procedimientos de ajuste, buenas prácticas de manufactura y normas sanitarias para la producción de panela. Ahora lo invitamos a revisar la síntesis para afianzar los saberes aprendidos a realizar la actividad de aprendizaje donde constatará el nivel de lo aprendido, consultar el material complementario y las referencias bibliográficas como refuerzo y profundización.
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

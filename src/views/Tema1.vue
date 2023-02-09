@@ -15,39 +15,36 @@
         p.mb-0 Este proceso puede tardar de 2 a 3 horas dependiendo del tipo de molino que es una máquina con tres rodillos acanalados (pequeños) para extraer y separar el jugo o guarapo y el bagazo. Hay molinos de martillos horizontales que funcionan con un motor eléctrico o fuerza hidráulica y molinos de martillos verticales que funcionan con tracción animal. Dependiendo de la rusticidad de la variedad de la caña de azúcar, debe ser picada y colocada en una licuadora de tres compartimientos para facilitar la extracción del jugo. El equipo mecánico debe contar con un motor de 5 caballos de fuerza, el cual también debe ser un motor de combustión interna a 2000 rpm.
 
 
-    Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Proceso de concentración de jugo de caña (cocinar jugo)
 
-    p.mb-5 A continuación, se muestra el proceso de concentración de jugo de caña. 
+    p.mb-5 A continuación, profundice en el proceso de concentración del jugo de caña:
 
 
     .row.justify-content-center(data-aos="fade-down").mt-5.mb-5
-      .col-10.col-lg-4
+      .col-10.col-lg-4.w450
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-2.png", alt="Texto que describa la imagen")
+            figure.img-100
+              img.img-100(src="@/assets/curso/temas/T1/img-2.png", alt="Texto que describa la imagen")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.small-text.mt-sm-3.mt-md-0 Recepción de las materias primas
                 p.mt-3.small-text La recepción de las diferentes materias primas se la efectúa en el puente grúa, el mismo que tiene una capacidad nominal de 2000 kg por cada levantamiento, lo que asegura un flujo másico de caña de azúcar de hasta 6000 kg por hora, este envía una señal a través de la celda de carga al computador que se encuentra en el laboratorio y así poder llevar un control de calidad de materias primas por proveedor y sin poder alterar la información de pesaje de las distintas materias primas, (Granja & Granja, 2013, p. 26).
-
+      
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-3.png", alt="Texto que describa la imagen")
-            .text.p-lg-3.p-4
+            figure.img-100
+              img.img-100(src="@/assets/curso/temas/T1/img-3.png", alt="Texto que describa la imagen")
+            .text.p-lg-3.p-md-2
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Lavado y desfibrado de la caña de azúcar
                 p.mt-3.small-text A través del tanque de lavado. El agua caliente para el enjuague proviene del circuito estanco de vacío y refrigeración del condensador barométrico, que aprovecha el calor residual de la evaporación del jugo claro. En el proceso de trituración de la caña de azúcar, hay dos aspectos básicos a distinguir: 1) que es la producción mediante la rotura de la estructura dura de la caña y trituración de las células; 2) la producción de azúcar en sí, lo que es muy importante para lograr un alto rendimiento de trituración, así como una mayor eficiencia de extracción. Cuando se trabaja con una astilladora, las cuchillas cortan el tronco en trozos cortos, lo que permite una molienda más eficiente.
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
-            figure
-              img(src="@/assets/curso/temas/T1/img-4.png", alt="Texto que describa la imagen")
+            figure.img-100
+              img.img-100(src="@/assets/curso/temas/T1/img-4.png", alt="Texto que describa la imagen")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Molienda de la caña de azúcar
@@ -65,7 +62,8 @@
           img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
 
       .col-md-7.mb-4.mb-md-0
-        p.mb-4 El jugo extraído de la caña por los molinos es una solución compuesta por materiales de todos los tamaños, desde partículas gruesas como tierra, partículas de bagazo, ceras hasta coloides e iones que pasan a un filtro decantador, para eliminación de materiales extraños e impurezas por los procesos unitarios de sedimentación y flotación, (Granja & Granja, 2013, p. 30-31).
+        p.mb-4 El jugo extraído de la caña, por los molinos, es una solución compuesta por materiales de todos los tamaños, desde partículas gruesas como tierra, partículas de bagazo, ceras, hasta coloides y iones que pasan a un filtro decantador, para eliminación de materiales extraños e impurezas por los procesos unitarios de sedimentación y flotación. (Granja & Granja, 2013, p. 30-31)
+
         p.mb-3 El buen rendimiento de un filtro instalado se puede ver entre la entrada y la salida del jugo. 
         .cajon.color-acento-botones.p-4.mb-4.color-morado
           p.mb-0 Durante la limpieza en frío queda impurezas líquidas que deben ser removidas varias veces al día y devueltas al molino final para recuperar parte del jugo restante. Al realizar las dos operaciones unitarias en este proceso en frío, las impurezas del jugo y antes de iniciar el proceso químico, se logra evitar en un 97 % que ingresen a los procesos físico químicos posteriores, las sustancias precursoras del color que, por el efecto del calor, se liberen en el jugo logrando su acción negativa sobre la presentación del producto terminado, (Granja & Granja, 2013, p. 31).
@@ -106,7 +104,7 @@
         i.fas.fa-leaf
         | <b>Clarificación del jugo </b>
 
-    p.mb-5 A continuación, se describen los pasos para la clarificación del jugo en los procesos paneleros:
+    p.mb-5 Ahora, se describen los pasos para la clarificación del jugo en los procesos paneleros:
 
     .row.mt-5
       .col-10.offset-1  
@@ -115,7 +113,7 @@
           p.text-small <i>Datos promedios de pH jugo mixto y pH jugo mixto tomado a la salida de los molinos y jugo clarificado antes de ingresar a evaporación </i>
         .tabla-a.color-secundario.mb-5 
           table
-            caption.mt-3 Nota. Reproducida de Producción de panela granulada. Granja & Granja (2013).
+            caption.mt-3 Nota. Tomada de Granja & Granja (2013).
             thead
               tr
                 th Brix jugo mixto
@@ -200,7 +198,7 @@
         i.fas.fa-leaf
         | <b>Evaporación</b>
 
-    p.mb-5 A continuación, el proceso de evaporación en la producción panelera 
+    p.mb-5 El proceso de evaporación en la producción panelera, presenta las siguientes generalidades:
 
 
 
@@ -291,7 +289,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 Usando ácido fosfórico al 85 % USP y sacarosa cálcica como agentes desecantes, implica la observación con cierto cuidado, dada la dificultad de la reacción entre los dos componentes.
+            p.mb-5 Usar ácido fosfórico al 85 % USP y sacarosa cálcica como agentes desecantes, implica la observación con cierto cuidado, dada la dificultad de la reacción entre los dos componentes.
         
           .col-md-4
             figure
@@ -303,7 +301,7 @@
         i.fas.fa-leaf
         | <b>Concentración</b>
 
-    p.mb-5 A continuación, se describe de qué manera la concentración y las altas temperaturas permiten una mejor purificación del producto. 
+    p.mb-5 Esta es la manera en que la concentración y las altas temperaturas, permiten una mejor purificación del producto: 
 
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
@@ -364,7 +362,7 @@
           img(src='@/assets/curso/temas/T1/img-20.png', alt='Texto que describa la imagen')
 
       .col-md-7.mb-4.mb-md-0
-        p.mb-4 Cuando se llega al punto de almíbar en el proceso anterior y se detiene el calentamiento, la textura y estructura cambia, pierde pegajosidad, se introduce aire seco en la miel, crecen cristales de azúcar, adquiere porosidad y, a medida que se enfría, el azúcar almibarado adquiere una forma amorfa, densa característica de los sólidos.
+        p.mb-4 Cuando se llega al punto de almíbar y se detiene el calentamiento, la textura y estructura cambia, pierde pegajosidad, se introduce aire seco en la miel, crecen cristales de azúcar, adquiere porosidad y, a medida que se enfría, el azúcar almibarado adquiere una forma amorfa, densa, característica de los sólidos.
         p.mb-4 Los tiempos de mezclado y enfriamiento dependen de la calidad de los materiales utilizados y toman un promedio de 10 a 15 minutos por lote. 
         p.mb-5 La operación se realiza de forma simultánea y consiste en un enfriamiento rápido del jarabe concentrado permitiendo que se cristalice por medio del batido, utilizando en este proceso una paila construida en acero inoxidable, una batidora y un soplador de aire forzado, permitiendo variar la velocidad del batido a flujo constante de aire, este depende de la viscosidad del material a cristalizar y por lo tanto, da seguridad industrial al operador, al no permitir saltar de revoluciones por minuto y que haga salir el aspa de batido de su lugar; tiene un control automático para su apagado.
 
@@ -375,8 +373,8 @@
         i.fas.fa-leaf
         | <b>Empaque y especificación del producto</b>
 
-    p.mb-5 En todo el sistema logístico, el empaque puede ser tanto una ayuda como un obstáculo para tener la más alta calidad y vida de almacenamiento.
-
+    p.mb-3 En todo el sistema logístico, el empaque puede ser tanto una ayuda como un obstáculo para tener la más alta calidad y vida de almacenamiento.
+    p.mb-5 Sobre el empaque y especificación del producto, tenga presente:
 
 
 
@@ -413,16 +411,16 @@
 
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Trasiego de mieles
+    h2 Trasiego de mieles
 
-    p.mb-5 Miel hidrolizada, parámetros para la producción.
+    p.mb-5 El trasiego de mieles tiene implicaciones y parámetros importantes que se deben tener muy en cuenta para la efectividad del proceso. Estos son:
 
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
+            h3 Constitución de la miel
             p.mb-5 La miel cruda está constituida principalmente por sacarosa, glucosa y fructosa, producto natural, moderadamente húmedo, denso y viscoso, producto intermedio en la elaboración del producto, especialmente cuando el jugo de caña concentrado y clarificado, que aún no ha sido extraído, contiene algún tipo de azúcar. Al someter esta miel a un tratamiento químico o biológico, se puede evitar su cristalización, dando como resultado la llamada miel “modificada”, que es hidrolizada o enriquecida con fructosa y glucosa; La cantidad de inversión dependerá del tipo de agente de inversión utilizado, así como de la temperatura y el tiempo que el agente de inversión permanece en contacto con la sacarosa. El agente de inversión más común y útil es el ácido, (Narváez, 2002).
 
           .col-md-4
@@ -432,6 +430,7 @@
         
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
+            h3 Calidad de la caña
             p.mb-5 Si se pretende producir miel se <b>“recomienda utilizar cañas inmaduras o sobremaduras, con alto contenido de azúcares reductores, para disminuir su cristalización”</b>. La miel de caña de buena calidad cumple con las siguientes características: buen suelo y su mejoramiento, diversidades de caña de azúcar adecuadas a la agroecología de cada región, fertilización adecuada, buena distribución de lluvia y/o riego durante todo el año, luz solar constante, proceso de transferencia de calor eficiente y excelentes condiciones sanitarias (Prada, 2002).
         
           .col-md-4
@@ -442,6 +441,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
+            h3 Aportes nutricionales
             p.mb-5 Los nutricionistas sugieren la miel como suplemento dietético humano porque tiene un alto valor nutricional y valor energético, tiene un poder edulcorante más fuerte que la sacarosa y es un producto de azúcar natural que se absorbe fácilmente. Caries porque es rico en hierro, calcio, aminoácidos, calorías, vitamina B6 y otras vitaminas B, y está catalogado como la fuente natural más rica de ácido pantoténico estimulante del crecimiento; propanol; por lo tanto, la miel de caña de azúcar es una materia prima ideal para la industria alimenticia, (Narváez, 2002).
         
           .col-md-4
@@ -450,18 +450,13 @@
 
 
 
-    ul.lista-ul--color.lista-ul--separador
-      li 
-        i.fas.fa-leaf
-        | <b>Procesamiento de caña panelera para la obtención de miel</b>
-
-    p.mb-5 A continuación, se describen los pasos para el procesamiento de caña panelera para la obtención de miel. 
+    p.mb-5 A continuación, se describen los pasos para el procesamiento de caña panelera para la obtención de miel:
 
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T1/img-25.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T1/img-25.svg', alt='Texto que describa la imagen')
         
 
       div(x="12.2%" y="84%" tooltip="" numero="")

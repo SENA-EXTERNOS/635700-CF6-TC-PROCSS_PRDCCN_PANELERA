@@ -14,10 +14,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/introduccion/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Apreciado aprendiz, bienvenido a este proceso de aprendizaje orientado a conocer qué es la cristalización y el procedimiento de ajustes en la producción panelera, aplicando todo el conocimiento a criterios de desempeño en diferentes campos como en el sector académico, productivo e investigativo. En el siguiente video se describe el contexto general de los contenidos desarrollados en este documento como lo son: el proceso de concentración del jugo de caña (cocinar jugo), el trasiego de mieles, las buenas prácticas de manufactura y las normas sanitarias para la fabricación de panela. 
-
+        p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde usted podrá conocer y asimilar las generalidades y aspectos claves de la cristalización y el procedimiento de ajustes en la producción panelera, aplicando todo el conocimiento a criterios de desempeño en diferentes campos, como en el sector académico, productivo e investigativo. 
     
-    p.mb-5 <b>¡Muchos éxitos en este proceso de formación!</b>
+    p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
 
     figure.mb-5

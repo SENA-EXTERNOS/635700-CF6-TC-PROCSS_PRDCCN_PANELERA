@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Cristalización y procedimiento de ajustes',
     descripcionCurso:
-      'Se identifican las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables adicionales, las cuales algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
+      'Este componente formativo aborda las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables adicionales, las cuales algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como parte de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
@@ -39,20 +39,6 @@ export default {
         numero: '1',
         titulo: 'Cristalización y tipo de productos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Proceso de concentración de jugo de caña (cocinar jugo)',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Trasiego de mieles',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
@@ -61,26 +47,6 @@ export default {
         numero: '2',
         titulo: 'Procedimientos de ajuste',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Cristalización',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Buenas prácticas de manufactura',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Normas sanitarias para la producción de panela',
-            hash: 't_2_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -123,20 +89,36 @@ export default {
       },
     ],
   },
+
   complementario: [
     {
-      tema: 'Trasiego de mieles',
+      tema: 'Cristalización y tipo de productos',
       referencia:
-        'Naranjo, J. (2013). Estudio de prefactibilidad para el establecimiento de una planta móvil para panela granulada en el cantón San Miguel, Provincia Bolívar [Proyecto de grado]. Universidad Central del Ecuador.',
-      tipo: 'Proyecto de grado',
-      link: 'http://www.dspace.uce.edu.ec/handle/25000/2035',
+        'Almeida, M. & Naranjo, J. (2013). <i>Estudio de prefactibilidad para el establecimiento de una planta móvil para panela granulada en el cantón San Miguel, Provincia Bolívar. </i>[Tesis de pregrado, Universidad Central del Ecuador]. Repositorio Institucional UCE. ',
+      tipo: 'Tesis',
+      link: 'http://www.dspace.uce.edu.ec/handle/25000/2035 ',
     },
     {
-      tema: 'BPM',
+      tema: 'Procedimientos de ajuste',
       referencia:
-        'Ramírez, R., Lucumi, I. & Carbonero, J. (2020). Propuesta de mejora en el proceso de panela aplicando BPM (Buenas prácticas de manufactura) en el Trapiche Cabañita [Proyecto de grado]. Institución Universitaria Antonio José Camacho.',
-      tipo: 'Artículo',
+        'Ramírez, R., Lucumi, I. & Carbonero, J. (2020). <i>Propuesta de mejora en el proceso de panela aplicando BPM (Buenas prácticas de manufactura) en el Trapiche Cabañita </i>[Tesis de pregrado, Institución Universitaria Antonio José Camacho]. Repositorio Institucional UNIAJC. ',
+      tipo: 'Tesis',
       link: 'https://repositorio.uniajc.edu.co/handle/uniajc/305',
+    },
+    {
+      tema: 'Procedimientos de ajuste',
+      referencia:
+        'Mendieta, O., García, M., Peña, A. & Rodríguez, J. (2016).<i> Las buenas prácticas de manufactura en la producción de panela.</i> CORPOICA.',
+      tipo: 'Artículo',
+      link: 'http://hdl.handle.net/20.500.12324/34303',
+    },
+    {
+      tema: 'Procedimientos de ajuste',
+      referencia:
+        'Prada, L. (2002).<i> Mejoramiento en la calidad de miel y panela. </i>',
+      tipo: 'Documento PDF',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/17691/42264_46021.pdf?sequence=1&isAllowed=y',
     },
   ],
   glosario: [
@@ -193,88 +175,82 @@ export default {
   referencias: [
     {
       referencia:
-        'Bravo, Á. M. (2018). <i>Implementación de buenas prácticas de manufactura (BPM) en la producción de panela en la empresa Mercafé</i> [Proyecto de grado]. Universidad Autónoma de Occidente. ',
+        'Bravo, A. (2018). <i>Implementación de buenas prácticas de manufactura (BPM) en la producción de panela en la empresa Mercafé </i>[Tesis de pregrado, Universidad Autónoma de Occidente]. Repositorio Institucional UAO. ',
       link: 'https://red.uao.edu.co/bitstream/handle/10614/10142/T07802.pdf',
     },
     {
       referencia:
-        'Decreto 1774 de 2004, Por el cual se crea la Comisión Nacional Intersectorial para la Vigilancia de la Calidad de la Panela. 2 de junio de 2004.',
+        'Decreto 1774 de 2004. [Presidencia de la República]. Por el cual se crea la Comisión Nacional Intersectorial para la Vigilancia de la Calidad de la Panela. Junio 2 de 2004.',
       link: '',
     },
     {
       referencia:
-        'Decreto 3075 de 1997. Por la cual se reglamenta parcialmente la Ley 09 de 1979 y se dictan otras disposiciones, en materia de salud. 23 de diciembre de 1997.',
+        'Decreto 3075 de 1997. [Presidencia de la República]. Por la cual se reglamenta parcialmente la Ley 09 de 1979 y se dictan otras disposiciones, en materia de salud. Diciembre 23 de 1997.',
       link: '',
     },
     {
-      referencia: 'Díaz, D. (s.f.). Producción de panela. Agrosavia. ',
+      referencia: 'Díaz, D. (s.f.). <i>Producción de panela.</i>',
       link:
         'https://repository.agrosavia.co/bitstream/handle/20.500.12324/29472/26899_14367.pdf?sequence=1',
     },
     {
       referencia:
-        'Fiestas, K., Santos, I., Banda, S., Valdiviezo, W. & Arellano, K. (2015). Diseño de una línea de producción de panela granulada. Universidad de Pirhua. ',
+        'Fiestas, K., Santos, I., Banda, S., Valdiviezo, W. & Arellano, K. (2015). <i>Diseño de una línea de producción de panela granulada.</i>',
       link:
         'https://pirhua.udep.edu.pe/bitstream/handle/11042/2344/4._PYT__Informe_Final__Panela.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Gómez, M., Mesías, M., Delgado, C., Contreras, J., Ubillús, F., Cruz, G. & Morales, F. (2019). Occurrence of acrylamide and other heat-induced compounds in panela: Relationship with physicochemical and antioxidant parameters. <i>Food Chemistry, 301, 125256</i>.',
+        'Gómez, M., Mesías, M., Delgado, C., Contreras, J., Ubillús, F., Cruz, G. & Morales, F. (2019). Aparición de acrilamida y otros compuestos inducidos por calor en panela: Relación con parámetros fisicoquímicos y antioxidantes. <i>Química de los alimentos, 301. </i>.',
       link: 'https://doi.org/10.1016/j.foodchem.2019.125256.',
     },
     {
       referencia:
-        'García, H. R., Albarracín, L. C., Toscano LaTorre, A., Santana, N., & Insuasty, O. (2007). Guía tecnológica para el manejo integral del sistema productivo de la caña panelera.',
+        'García, H., Albarracín, L., Toscano, A., Santana, N. & Insuasty, O. (2007).<i> Guía tecnológica para el manejo integral del sistema productivo de la caña panelera. </i>',
+      link:
+        'https://www.academia.edu/27013309/Gu%C3%ADa_tecnol%C3%B3gica_para_el_manejo_integral_del_sistema_productivo_de_ca%C3%B1a_panelera',
+    },
+    {
+      referencia:
+        'Granja, M. & Granja, J. (2013).<i> Producción de panela granulada.</i> San Gerónimo de los Andes Ecuatorianos.',
       link: '',
     },
     {
       referencia:
-        'Granja, M. & Granja, J. (2013). Producción de panela granulada. San Gerónimo de los Andes Ecuatorianos.',
-      link: '',
-    },
-    {
-      referencia:
-        'Mendieta, O., García, M., Peña, A. & Rodríguez, J. (2016). <i>Las buenas prácticas de manufactura en la producción de panela</i>. Corpoica. ',
+        'Mendieta, O., García, M., Peña, A. & Rodríguez, J. (2016).<i> Las buenas prácticas de manufactura en la producción de panela.</i> CORPOICA. ',
       link: 'http://hdl.handle.net/20.500.12324/34303',
     },
     {
       referencia:
-        'Montenegro, D. (2015). <i>Manual de buenas prácticas de manufactura en la producción de panela de caña, en la vereda Yumbito, municipio el Tambo Cauca</i> [Proyecto de grado]. Universidad de San Buenaventura. ',
+        'Montenegro, D. (2015). <i>Manual de buenas prácticas de manufactura en la producción de panela de caña, en la vereda Yumbito, municipio el Tambo Cauca </i>[Proyecto de grado, Universidad de San Buenaventura]. Repositorio Institucional USB. ',
       link:
         'https://bibliotecadigital.usb.edu.co/entities/publication/cb76b3b0-e078-4398-be79-f9bc724462a2',
     },
     {
       referencia:
-        'Osorio, G. (2007). <i>Buenas prácticas agrícolas -BPA- y buenas prácticas de manufactura en la producción de caña y panela -BPM</i>. Corpoica ',
+        'Osorio, G. (2007). <i>Buenas prácticas agrícolas -BPA- y buenas prácticas de manufactura en la producción de caña y panela -BPM. </i>',
       link:
         'https://www.unipamplona.edu.co/unipamplona/portalIG/home_4/mod_virtuales/modulo1/Manual.pdf',
     },
     {
       referencia:
-        'Prada, L. (2002). <i>Mejoramiento en la calidad de miel y panela</i>. Corpoica, Regional 7',
+        'Prada, L. (2002).<i> Mejoramiento en la calidad de miel y panela</i>. CORPOICA. ',
       link:
         'https://repository.agrosavia.co/bitstream/handle/20.500.12324/17691/42264_46021.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
         'Resolución 779 de 2006. [Ministerio de la Protección Social]. Por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones. Marzo 17 de 2006.',
-      link: '',
     },
     {
       referencia:
-        'Resolución 2674 de 2013. [Ministerio de Salud y Protección Social]. Por la cual se establecen los requisitos sanitarios que deben cumplir las personas naturales y/o jurídicas que ejercen actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos y materias primas de alimentos y los requisitos para la notificación, permiso o registro sanitario de los alimentos, según el riesgo en salud pública, con el fin de proteger la vida y la salud de las personas.',
-      link: '',
+        'Resolución 2674 de 2013. [Ministerio de Salud y Protección Social]. Por la cual se establecen los requisitos sanitarios que deben cumplir las personas naturales y/o jurídicas que ejercen actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos y materias primas de alimentos y los requisitos para la notificación, permiso o registro sanitario de los alimentos, según el riesgo en salud pública, con el fin de proteger la vida y la salud de las personas. Julio 22 de 2013.',
     },
     {
       referencia:
-        'Suárez, J. & Vidal, L. (2013). <i>Hidrólisis ácida y concentración por vaporación de jugo de caña panelera (variedad cc 8592) para la elaboración de miel invertida</i> [Proyecto de grado]. Universidad del Valle. ',
+        'Suárez, J. & Vidal, L. (2013). <i>Hidrólisis ácida y concentración por vaporación de jugo de caña panelera (variedad cc 8592) para la elaboración de miel invertida</i> [Tesis de pregrado, Universidad del Valle]. Repositorio Institucional UNIVALLE.',
       link:
         'ibliotecadigital.univalle.edu.co/bitstream/handle/10893/17660/0478121.pdf?sequence=1&isAllowed=y',
-    },
-    {
-      referencia:
-        'Suárez Guevara, J. A., & Vidal Hurtado, L. J. (2013). Hidrólisis ácida y concentración por vaporación de jugo de caña panelera (variedad cc 8592) para la eleboración de miel invertida.',
-      link: '',
     },
   ],
   creditos: {
