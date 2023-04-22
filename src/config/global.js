@@ -202,7 +202,7 @@ export default {
     {
       referencia:
         'Gómez, M., Mesías, M., Delgado, C., Contreras, J., Ubillús, F., Cruz, G. & Morales, F. (2019). Aparición de acrilamida y otros compuestos inducidos por calor en panela: Relación con parámetros fisicoquímicos y antioxidantes. <i>Química de los alimentos, 301. </i>.',
-      link: 'https://doi.org/10.1016/j.foodchem.2019.125256.',
+      link: 'https://doi.org/10.1016/j.foodchem.2019.125256',
     },
     {
       referencia:
