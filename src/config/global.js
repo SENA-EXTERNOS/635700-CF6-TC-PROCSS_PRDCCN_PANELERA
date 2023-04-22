@@ -250,7 +250,7 @@ export default {
       referencia:
         'Suárez, J. & Vidal, L. (2013). <i>Hidrólisis ácida y concentración por vaporación de jugo de caña panelera (variedad cc 8592) para la elaboración de miel invertida</i> [Tesis de pregrado, Universidad del Valle]. Repositorio Institucional UNIVALLE.',
       link:
-        'ibliotecadigital.univalle.edu.co/bitstream/handle/10893/17660/0478121.pdf?sequence=1&isAllowed=y',
+        'https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/17660/0478121.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: {
