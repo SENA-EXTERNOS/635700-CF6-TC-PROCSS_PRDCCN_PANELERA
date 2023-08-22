@@ -165,7 +165,7 @@ export default {
     {
       termino: 'Temperatura de almacenamiento',
       significado:
-        'Temperatura de almacenamiento: magnitud para medir la energía cinética a la que se mantiene el almacenamiento de la panela, cuando la temperatura llega a 30C se acelera los cambios de color y dureza de las panelas y favorece el crecimiento de hongos en productos de higroscopicidad alta.',
+        'magnitud para medir la energía cinética a la que se mantiene el almacenamiento de la panela, cuando la temperatura llega a 30C se acelera los cambios de color y dureza de las panelas y favorece el crecimiento de hongos en productos de higroscopicidad alta.',
     },
     {
       termino: 'Trasiego',
