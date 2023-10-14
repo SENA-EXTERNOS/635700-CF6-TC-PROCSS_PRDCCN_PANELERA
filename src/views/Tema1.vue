@@ -29,7 +29,7 @@
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.small-text.mt-sm-3.mt-md-0 Recepción de las materias primas
-                p.mt-3.small-text La recepción de las diferentes materias primas se la efectúa en el puente grúa, el mismo que tiene una capacidad nominal de 2000 kg por cada levantamiento, lo que asegura un flujo másico de caña de azúcar de hasta 6000 kg por hora, este envía una señal a través de la celda de carga al computador que se encuentra en el laboratorio y así poder llevar un control de calidad de materias primas por proveedor y sin poder alterar la información de pesaje de las distintas materias primas, (Granja & Granja, 2013, p. 26).
+                p.mt-3.small-text La recepción de las diferentes materias primas se efectúa en el puente grúa, el mismo que tiene una capacidad nominal de 2000 kg por cada levantamiento, lo que asegura un flujo másico de caña de azúcar de hasta 6000 kg por hora, este envía una señal a través de la celda de carga al computador que se encuentra en el laboratorio y así poder llevar un control de calidad de materias primas por proveedor y sin poder alterar la información de pesaje de las distintas materias primas, (Granja & Granja, 2013, p. 26).
       
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
@@ -39,7 +39,7 @@
             .text.p-lg-3.p-md-2
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Lavado y desfibrado de la caña de azúcar
-                p.mt-3.small-text A través del tanque de lavado. El agua caliente para el enjuague proviene del circuito estanco de vacío y refrigeración del condensador barométrico, que aprovecha el calor residual de la evaporación del jugo claro. En el proceso de trituración de la caña de azúcar, hay dos aspectos básicos a distinguir: 1) que es la producción mediante la rotura de la estructura dura de la caña y trituración de las células; 2) la producción de azúcar en sí, lo que es muy importante para lograr un alto rendimiento de trituración, así como una mayor eficiencia de extracción. Cuando se trabaja con una astilladora, las cuchillas cortan el tronco en trozos cortos, lo que permite una molienda más eficiente.
+                p.mt-3.small-text El agua caliente para el enjuague proviene del circuito estanco de vacío y refrigeración del condensador barométrico, que aprovecha el calor residual de la evaporación del jugo claro. En el proceso de trituración de la caña de azúcar, hay dos aspectos básicos a distinguir: 1) que es la producción mediante la rotura de la estructura dura de la caña y trituración de las células; 2) la producción de azúcar en sí, lo que es muy importante para lograr un alto rendimiento de trituración, así como una mayor eficiencia de extracción. Cuando se trabaja con una astilladora, las cuchillas cortan el tronco en trozos cortos, lo que permite una molienda más eficiente.
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
@@ -62,11 +62,11 @@
           img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
 
       .col-md-7.mb-4.mb-md-0
-        p.mb-4 El jugo extraído de la caña, por los molinos, es una solución compuesta por materiales de todos los tamaños, desde partículas gruesas como tierra, partículas de bagazo, ceras, hasta coloides y iones que pasan a un filtro decantador, para eliminación de materiales extraños e impurezas por los procesos unitarios de sedimentación y flotación. (Granja & Granja, 2013, p. 30-31)
+        p.mb-4 El jugo extraído de la caña, por los molinos, es una solución compuesta por materiales de todos los tamaños, desde partículas gruesas como tierra, partículas de bagazo, ceras, hasta coloides e iones que pasan a un filtro decantador, para eliminación de materiales extraños e impurezas por los procesos unitarios de sedimentación y flotación. (Granja & Granja, 2013, p. 30-31)
 
         p.mb-3 El buen rendimiento de un filtro instalado se puede ver entre la entrada y la salida del jugo. 
         .cajon.color-acento-botones.p-4.mb-4.color-morado
-          p.mb-0 Durante la limpieza en frío queda impurezas líquidas que deben ser removidas varias veces al día y devueltas al molino final para recuperar parte del jugo restante. Al realizar las dos operaciones unitarias en este proceso en frío, las impurezas del jugo y antes de iniciar el proceso químico, se logra evitar en un 97 % que ingresen a los procesos físico químicos posteriores, las sustancias precursoras del color que, por el efecto del calor, se liberen en el jugo logrando su acción negativa sobre la presentación del producto terminado, (Granja & Granja, 2013, p. 31).
+          p.mb-0 Durante la limpieza en frío quedan impurezas líquidas que deben ser removidas varias veces al día y devueltas al molino final para recuperar parte del jugo restante. Al realizar las dos operaciones unitarias en este proceso en frío, las impurezas del jugo y antes de iniciar el proceso químico, se logra evitar en un 97 % que ingresen a los procesos fisicoquímicos posteriores, las sustancias precursoras del color que, por el efecto del calor, se liberen en el jugo logrando su acción negativa sobre la presentación del producto terminado, (Granja & Granja, 2013, p. 31).
 
 
 
@@ -110,15 +110,15 @@
       .col-10.offset-1  
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
-          p.text-small <i>Datos promedios de pH jugo mixto y pH jugo mixto tomado a la salida de los molinos y jugo clarificado antes de ingresar a evaporación </i>
+          p.text-small <i>Datos promedios de Brix jugo mixto y pH jugo mixto tomado a la salida de los molinos y jugo clarificado antes de ingresar a evaporación.</i>
         .tabla-a.color-secundario.mb-5 
           table
             caption.mt-3 Nota. Tomada de Granja & Granja (2013).
             thead
               tr
                 th Brix jugo mixto
-                th PH jugo mixto
-                th PH jugo clarificado
+                th pH jugo mixto
+                th pH jugo clarificado
             tbody.text-center
               tr
                 td 17.8
@@ -172,12 +172,12 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row.justify-content-around.align-items-center(titulo="Clarificación")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Terminada la clarificación de jugo en frío, el jugo mixto pasa a la paila de descachazado, con una capacidad nominal de 500 litros por hora, construidas completamente en acero inoxidable, para continuar con el proceso del proceso de clarificación en el cual continúa removiendo a los sólidos en suspensión y algunos compuestos colorantes presentes en el jugo durante la producción de panela, a través de la aglomeración de partículas, a una temperatura máxima 50-55ºC, (Granja & Granja, 2013).              
+              p.mb-4 Terminada la clarificación de jugo en frío, el jugo mixto pasa a la paila de descachazado, con una capacidad nominal de 500 litros por hora, construidas completamente en acero inoxidable, para continuar con el proceso de clarificación en el cual continúa removiendo a los sólidos en suspensión y algunos compuestos colorantes presentes en el jugo durante la producción de panela, a través de la aglomeración de partículas, a una temperatura máxima de 50-55ºC, (Granja & Granja, 2013).              
                 
 
           .row.justify-content-around.align-items-center(titulo="Calentamiento ")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Que permite la coagulación o formación de partículas más grandes y densidad, misma que se separa fácilmente por medios físicos.
+              p.mb-4 Una vez completada la fase inicial de limpieza, se obtiene el jugo en su forma sin aclarar, denominada guarapo. Este se dirige directamente hacia la paila receptora, la cual se encuentra a una temperatura cercana a la de ambiente, generalmente entre 50°C y 55°C, marcando el comienzo del proceso de calentamiento. El aumento de temperatura en el jugo cumple un papel fundamental como catalizador, estimulando la formación de partículas de mayor tamaño y densidad, lo que, a su vez, acelera su movimiento y facilita su subsiguiente separación.
           
 
           .row.justify-content-around.align-items-center(titulo="Sustancias")
@@ -186,7 +186,7 @@
 
           .row.justify-content-around.align-items-center(titulo="Impurezas ")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Líquidas o cachaza se retiran manualmente con un colador y se colocan en recipientes llamados cachaceras. En estas se separan los jugos que pueden ser liberados en la separación de la cachaza quedando en el fondo del contenedor, que regresará más tarde a la paila clarificadora. La torta de filtración resultante es un producto apto para su uso como fertilizante y alimento para cerdos.
+              p.mb-4 Las impurezas líquidas o cachaza se retiran manualmente con un colador y se colocan en recipientes llamados cachaceras. En estas se separan los jugos que pueden ser liberados en la separación de la cachaza quedando en el fondo del contenedor, que regresará más tarde a la paila clarificadora. La torta de filtración resultante es un producto apto para su uso como fertilizante y alimento para cerdos.
 
       .col-md-4
         figure
@@ -212,10 +212,10 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="El jugo clarificado")
             .col-md-12.mb-4.mb-md-0
-              p El propósito principal de evaporar el jugo clarificado es lograr la tasa de evaporación más alta, de la manera más eficiente y preservar el carácter natural, pero aumentando su concentración. Es decir, este proceso permite mejorar el contenido de azúcar en el jugo desde 20º Brix hasta 60º Brix, se hace al vacío, este proceso afecta directamente la textura del producto final, (Granja & Granja, 2013).
+              p El propósito principal de evaporar el jugo clarificado es lograr la tasa de evaporación más alta, de la manera más eficiente y preservar el carácter natural, pero aumentando su concentración. Es decir, este proceso permite mejorar el contenido de azúcar en el jugo desde 20º Brix hasta 60°Brix, y se hace al vacío. Este proceso afecta directamente la textura del producto final, (Granja & Granja, 2013).
           .row(titulo="El jugo claro")
             .col-md-12.mb-4.mb-md-0
-              p Es transportado hacia los evaporadores a temperatura de ebullición, para la separación del agua presente en el jugo a través de la ebullición al vacío en el primer cuerpo del evaporador se obtienen gases vegetales del jugo claro y libera calor, al  segundo efecto de evaporación, lográndose “que una gran parte del agua sea separada del jugo; la cual es apta para su utilización como agua esterilizada e ideal para su aplicación en el proceso de fabricación de pulpas de jugos”, (Granja & Granja, 2013, p. 36).
+              p Es transportado hacia los evaporadores a temperatura de ebullición para la separación del agua presente en el jugo, a través de la ebullición al vacío. En el primer cuerpo del evaporador se obtienen gases vegetales del jugo claro y libera calor, al segundo efecto de evaporación se logra “que una gran parte del agua sea separada del jugo; la cual es apta para su utilización como agua esterilizada e ideal para su aplicación en el proceso de fabricación de pulpas de jugos”, (Granja & Granja, 2013, p. 36).
 
 
     ul.lista-ul--color.lista-ul--separador
@@ -238,11 +238,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span b
-                | Formar Jarabe a partir de miel virgen.
+                | Formar jarabe a partir de miel virgen.
               li 
                 .lista-ol--cuadro__vineta
                   span c
-                | El azúcar moreno es colado de un ingenio artesanal, pero como las dos últimas materias primas mencionadas contienen sólidos que se encuentran en estado coloidal, su eliminación es un trabajo en equipo en una sola operación de “clarificación por flotación, la capacidad de este equipo en acero inoxidable, que tiene doble fondo para el calentamiento controlado con vapores para 800 litros”, (Granja & Granja, 2013, p. 37).
+                | El azúcar morena es colado de un ingenio artesanal, pero como las dos últimas materias primas mencionadas contienen sólidos que se encuentran en estado coloidal, su eliminación es un trabajo en equipo en una sola operación de “clarificación por flotación, la capacidad de este equipo en acero inoxidable, que tiene doble fondo para el calentamiento controlado con vapores para 800 litros”, (Granja & Granja, 2013, p. 37).
         
           .col-md-4
             figure
@@ -269,7 +269,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 Además, siendo de alto peso molecular, la longitud de la cadena es mayor, lo que posibilita que se deba varios radicales aniónicos se absorban en las cargas positivas descritas y se establece un verdadero puente, que aumenta el tamaño de los flóculos, (Granja & Granja, 2013).
+            p.mb-5 Además, siendo de alto peso molecular, la longitud de la cadena es mayor, lo que posibilita que se deba a que varios radicales aniónicos se absorban en las cargas positivas descritas y se establezca un verdadero puente que aumenta el tamaño de los flóculos, (Granja & Granja, 2013).
         
           .col-md-4
             figure
@@ -280,7 +280,8 @@
 
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 Durante la etapa de coagulación y la siguiente, otros sólidos son capturados en la etapa de flotación. Partículas extraídas de plantas suspendidas como bagazo, partículas mayores a 0.200 mm que son difíciles de capturar porque deben ser separadas por una malla metálica contra una charola y luego ser removidas manualmente.
+            p.mb-5 Durante la etapa de coagulación y la siguiente, otros sólidos son capturados en la etapa de flotación, entre ellas, las partículas extraídas de plantas suspendidas como bagazo o partículas mayores a 0.200 mm que son difíciles de capturar, porque deben ser separadas por una malla metálica contra una charola y luego ser removidas manualmente.
+
         
           .col-md-4
             figure
@@ -306,7 +307,7 @@
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
-        .row.justify-content-around.align-items-center(titulo="paso 1")
+        .row.justify-content-around.align-items-center.px-5(titulo="paso 1")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 El jarabe clarificado suele pasar a la siguiente etapa con un Brix de 60 ° a 65 °; cuanto más puro sea el material, más rápido se cristaliza al agitar y enfriar.
         
@@ -322,7 +323,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 3")
+        .row.justify-content-around.align-items-center.px-5(titulo="paso 3")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 Mientras continúa este proceso, es importante verificar la conversión de sacarosa, que depende de la temperatura, el pH y el tiempo de residencia en la paila concentradora, especialmente si la temperatura supera los 100 ºC, la inversión se acelera significativamente.
         
@@ -330,17 +331,11 @@
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 4")
+      
+        .row.justify-content-around.align-items-center.px-5(titulo="paso 4")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 “La paila de concentración tiene una capacidad nominal de 220 Kilogramos / hora” (Granja & Granja, 2013, p. 43).
-        
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
+            p.mb-5 El <b>“punto”</b> del jarabe clarificado para la obtención de la panela granulada en la planta prototipo corresponde a una concentración de sólidos de 88 º a 94 ºBrix. La velocidad de respuesta durante este proceso debe ser alta porque los cambios de las características del material en proceso ocurren rápidamente en su punto final, y estas pueden caramelizar fácilmente; en caso contrario se dificultará la cristalización, (Granja, 2013, p. 44).
 
-        .row.justify-content-around.align-items-center(titulo="paso 5")
-          .col-md-8.mb-4.mb-md-0
-            p.mb-5 El <b>“punto”</b> del jarabe clarificado para la obtención de la panela granulada en la planta piloto prototipo corresponde a una concentración de sólidos de 88 º a 94 ºBrix, la velocidad de respuesta durante este proceso debe ser alta, porque los cambios de las características del material en proceso ocurren rápidamente en su punto final y estas pueden caramelizar fácilmente, caso contrario se dificultará la cristalización, (Granja, 2013, p. 44).
         
           .col-md-4
             figure
@@ -401,7 +396,7 @@
 
           .row.justify-content-around.align-items-center(titulo="El almacenamiento ")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Se lo hace siguiendo las fechas de fabricación, tamaños de los lotes y sobre todo los parámetros de humedad de equilibrio en la panela (Chep), entre un valor mínimo de 7% y un máximo del 10 %; con una temperatura ambiente de bodega entre 13 a 34 ºC y humedad relativa entre 70 a 78 %,(Granja, 2013, p. 49).
+              p.mb-4 Se hace siguiendo las fechas de fabricación, tamaños de los lotes y sobre todo los parámetros de humedad de equilibrio en la panela (Chep), entre un valor mínimo de 7% y un máximo del 10 %; con una temperatura ambiente de bodega entre 13 a 34 ºC y humedad relativa entre 70 a 78 %,(Granja, 2013, p. 49).
 
       .col-md-4
         figure
@@ -421,7 +416,7 @@
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
             h3 Constitución de la miel
-            p.mb-5 La miel cruda está constituida principalmente por sacarosa, glucosa y fructosa, producto natural, moderadamente húmedo, denso y viscoso, producto intermedio en la elaboración del producto, especialmente cuando el jugo de caña concentrado y clarificado, que aún no ha sido extraído, contiene algún tipo de azúcar. Al someter esta miel a un tratamiento químico o biológico, se puede evitar su cristalización, dando como resultado la llamada miel “modificada”, que es hidrolizada o enriquecida con fructosa y glucosa; La cantidad de inversión dependerá del tipo de agente de inversión utilizado, así como de la temperatura y el tiempo que el agente de inversión permanece en contacto con la sacarosa. El agente de inversión más común y útil es el ácido, (Narváez, 2002).
+            p.mb-5 La miel cruda está constituida principalmente por sacarosa, glucosa y fructosa, producto natural, moderadamente húmedo, denso y viscoso, especialmente cuando el jugo de caña concentrado y clarificado, que aún no ha sido extraído, contiene algún tipo de azúcar. Al someter esta miel a un tratamiento químico o biológico, se puede evitar su cristalización, dando como resultado la llamada miel “modificada”, que es hidrolizada o enriquecida con fructosa y glucosa. La cantidad de inversión dependerá del tipo de agente de inversión utilizado, así como de la temperatura y el tiempo que el agente de inversión permanezca en contacto con la sacarosa. El agente de inversión más común y útil es el ácido, (Narváez, 2002).
 
           .col-md-4
             figure
@@ -442,7 +437,8 @@
         .row.justify-content-around.align-items-center
           .col-md-8.mb-4.mb-md-0
             h3 Aportes nutricionales
-            p.mb-5 Los nutricionistas sugieren la miel como suplemento dietético humano porque tiene un alto valor nutricional y valor energético, tiene un poder edulcorante más fuerte que la sacarosa y es un producto de azúcar natural que se absorbe fácilmente. Caries porque es rico en hierro, calcio, aminoácidos, calorías, vitamina B6 y otras vitaminas B, y está catalogado como la fuente natural más rica de ácido pantoténico estimulante del crecimiento; propanol; por lo tanto, la miel de caña de azúcar es una materia prima ideal para la industria alimenticia, (Narváez, 2002).
+            p.mb-5 Los nutricionistas sugieren la miel como suplemento dietético humano porque tiene un alto valor nutricional y valor energético, tiene un poder edulcorante más fuerte que la sacarosa y es un producto de azúcar natural que se absorbe fácilmente. Es rico en hierro, calcio, aminoácidos, calorías, vitamina B6 y otras vitaminas B, y está catalogado como la fuente natural más rica de ácido pantoténico estimulante del crecimiento. Por lo tanto, la miel de caña de azúcar es una materia prima ideal para la industria alimenticia, (Narváez, 2002).
+
         
           .col-md-4
             figure
@@ -458,22 +454,22 @@
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T1/img-25.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T1/img-25-.svg', alt='Texto que describa la imagen')
         
 
-      .tarjeta.fnd-1.p-3(x="12.2%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="12.2%" y="78.5%" tooltip="" numero="")
         h5 Extracción de jugos
         p La caña se somete a compresión en los rodillos o mazas del molino, que facilitan el drenaje del líquido de los tallos. Aquellos con 58 % a 63 % de recuperación se consideraron satisfactorios. Los productos finales en esta etapa son jugo crudo y bagazo; el primero, es la materia prima para hacer miel de caña de azúcar y el segundo, es el combustible que se utiliza para el quemador después del secado, (Osorio, 2007).
 
-      .tarjeta.fnd-1.p-3(x="37.8%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="37.8%" y="78.5%" tooltip="" numero="")
         .h5.mb-2 Limpieza de jugos
         p En esta fase se retiran impurezas gruesas de carácter no nutricional por medios físicos (decantación y flotación en el prelimpiador), calientes (en las primeras pailas) y bioquímicos (con los aglutinantes). El jugo crudo (guarapo) y sin clarificar se limpia en frío utilizando un sistema de decantación natural, por efecto de la gravedad, desarrollado por el centro de investigación para el mejoramiento de la agroindustria panelera (CIMPA) y que se ha denominado prelimpiador. Este conector retiene por precipitación una importante proporción de los sólidos contenidos en el jugo de la caña, como partículas de tierra, lodo y arena; paralelamente, por flotación, el prelimpiador separa partículas livianas como bagacillo, hojas, insectos, etc., (Osorio, 2007).
 
-      .tarjeta.fnd-1.p-3(x="63.8%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="63.8%" y="78.5%" tooltip="" numero="")
         .h5.mb-2 Clarificación
         p Esta fase se lleva a cabo en una paila recibidora o descachazadora y consiste en remover la torta de filtración de sólidos suspendidos como caña, hojas, arena, tierra, materia coloidal y sólidos solubles del jugo de caña. La limpieza de los jugos ocurre gracias a la acción combinada del calentamiento suministrado por la hornilla y la acción aglutinante de ciertos compuestos naturales como los cadillos, el balso, el guásimo, el juan blanco, el san Joaquín, entre otros. El control de esta operación debe ser preciso para la calidad del jugo si se desea producir miel, pues la presencia de precipitaciones no eliminados en este proceso afecta directamente la calidad del producto final, reflejada en una cristalización, (Osorio, 2007).
 
-      .tarjeta.fnd-1.p-3(x="89.7%" y="84%" tooltip="" numero="")
+      .tarjeta.fnd-1.p-3(x="89.7%" y="78.5%" tooltip="" numero="")
         .h5.mb-2 Evaporación y concentración
         p Una vez que se completa la clarificación, comienza la evaporación del agua, aumentando la concentración de azúcares en el jugo. La eficiencia térmica de la hornilla, y su efecto sobre los jugos, se cuentan entre el conjunto de factores que influyen en la calidad de la panela. Cuando los jugos alcanzan un contenido de sólidos solubles cercano a los 70 ºBrix adquieren el nombre de mieles, y se inicia la concentración, (Osorio, 2007).
 

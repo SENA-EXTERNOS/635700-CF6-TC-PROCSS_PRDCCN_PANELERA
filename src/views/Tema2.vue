@@ -38,7 +38,7 @@
 
         .row.justify-content-around.align-items-center(titulo="paso 3")
           .col-md-8.mb-4.mb-md-0
-            p.mb-5 <b>Sobresaturación:</b> la reacción tiene una velocidad limitada en la superficie y todo el proceso consta de dos fases sucesivas, una fase de difusión y una fase interfacial, y ninguna de estas ocurre si la solución no está sobresaturada. Ambos procesos ayudan a determinar la tasa de crecimiento de los cristales, pero mientras que la resistencia al transporte molecular domina a la sobresaturación “normal” y a altas temperaturas (superiores a 50 oC), la resistencia de los enlaces moleculares, juega un papel importante a baja temperatura y sobresaturación. (García, 2001)
+            p.mb-5 <b>Sobresaturación:</b> la reacción tiene una velocidad limitada en la superficie y todo el proceso consta de dos fases sucesivas, una fase de difusión y una fase interfacial, y ninguna de estas ocurre si la solución no está sobresaturada. Ambos procesos ayudan a determinar la tasa de crecimiento de los cristales, pero mientras que la resistencia al transporte molecular domina a la sobresaturación “normal” y a altas temperaturas (superiores a 50 °C), la resistencia de los enlaces moleculares, juega un papel importante a baja temperatura y sobresaturación. (García, 2001)
 
         
           .col-md-4
@@ -72,7 +72,7 @@
       )
       .bloque-texto-g__texto.p-4
         
-        p.mb-0 Se entiende por Buenas Prácticas de Manufactura BPM, aquellos principios básicos y prácticas generales de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y distribución de alimentos para consumo humano, con el objeto de garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se disminuyan los riesgos inherentes a la producción.
+        p.mb-0 Se entiende por Buenas Prácticas de Manufactura (BPM), aquellos principios básicos y prácticas generales de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y distribución de alimentos para consumo humano, con el objeto de garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se disminuyan los riesgos inherentes a la producción.
 
 
 
@@ -88,7 +88,7 @@
         figure
           img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
       .col-md-8.mb-4.mb-md-0
-        p.mb-5 <b>Artículo 7°.</b> Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento. Para la elaboración de panela sólo se podrá utilizar como materia prima las mieles vírgenes procedentes de trapiches paneleros autorizados, siempre y cuando cumplan con los siguientes requisitos:
+        p.mb-5 <b>Artículo 7°.</b> Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento. Para la elaboración de panela solo se podrá utilizar como materia prima las mieles vírgenes procedentes de trapiches paneleros autorizados, siempre y cuando cumplan con los siguientes requisitos:
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -189,7 +189,7 @@
           .col-8
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Certificado y evaluación de la conformidad
-        p.text-center La evaluación de la conformidad debe ser realizada por la Administración Estatal de Alimentos y Medicamentos, el Invima y las unidades territoriales estructurales de salud con competencia técnica. El certificado de evaluación de la Conformidad podrá ser expedido por el Instituto Nacional de Atención de Medicamentos y Alimentos, Invima, o cuando sea del caso, por los organismos de certificación acreditados o reconocidos por dicha entidad.
+        p.text-center La evaluación de la conformidad debe ser realizada por la Administración Estatal de Alimentos y Medicamentos, el Invima y las unidades territoriales estructurales de salud con competencia técnica. El certificado de evaluación de la conformidad podrá ser expedido por el Instituto Nacional de Atención de Medicamentos y Alimentos, Invima, o cuando sea del caso, por los organismos de certificación acreditados o reconocidos por dicha entidad.
 
 
     p.mb-5 En cuanto al procedimiento para el ingreso correcto del personal al trapiche panelero, se deben tener presentes los siguientes aspectos:
@@ -247,7 +247,7 @@
               | Se debe mantener la limpieza e higiene personal. 
             p 
               i.fas.fa-circle.fas-circulo.me-2.text-small
-              | Aplicar buenas prácticas higiénicas en sus labores como lavarse las manos con agua y jabón y no usar joyas, ni comer ni fume, ni beber en las áreas de proceso. 
+              | Aplicar buenas prácticas higiénicas en sus labores como lavarse las manos con agua y jabón, no usar joyas, no comer, fumar, ni beber en las áreas del proceso.
             p 
               i.fas.fa-circle.fas-circulo.me-2.text-small
               | Todas las personas que realizan actividades de manipulación de la panela deben tener capacitación en prácticas higiénicas de manipulación de alimentos. 
@@ -265,8 +265,8 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-2 <i>Disposiciones para el uso de elementos de protección personal:</i>
-            p.mb-4 <i><b>Cabeza</b></i>
+            h4.mb-2 <i>Disposiciones para el uso de elementos de protección personal</i>
+            h4.my-4 <i><b>Cabeza</b></i>
             p.mb-1 Se recomienda una cubierta superior o cofia, si se expone a la humedad o bacterias.
             ol.lista-ol--cuadro
               li
@@ -276,21 +276,27 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Debe verificarse que no se encuentre en mal estado (Rota, sucia, rasgada).  
+                | Debe verificarse que no se encuentre en mal estado (rota, sucia, rasgada).  
               li 
                 .lista-ol--cuadro__vineta
                   span 3
-                | Se debe suministrar al menos 2 por operario con el fin de ser lavadas luego de usarla.  
+                | Se debe suministrar al menos 2 por operario con el fin de ser lavadas luego de usarlas.  
               li 
                 .lista-ol--cuadro__vineta
                   span 4
-                | Están mejor hechos de telas que sean fáciles de lavar y que absorban el sudor.
-              li.mb-5
+                | Preferiblemente que estén hechos de telas que sean fáciles de lavar y que absorban el sudor.
+              li
                 .lista-ol--cuadro__vineta
                   span 5
                 | <b>Forma de colocarse: </b>
-            p.mb-0 Si es para mujeres, el cabello debe estar bien recogido.
-            p.mb-5 La cofia debe sujetarse con ambas manos y luego colocarse sobre la cabeza para cubrir cierta parte de la frente para evitar la caída del cabello. Para cubrir toda la zona de la cabeza para que no se escape el pelo, átala, sujeta ambas tiras y ajusta al tamaño de la cabeza. Cubrir toda el área de la cabeza. 
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Si es para mujeres, el cabello debe estar bien recogido.
+                  li 
+                    i.fas.fa-angle-right
+                    | La cofia debe sujetarse con ambas manos y luego colocarse sobre la cabeza para cubrir cierta parte de la frente para evitar la caída del cabello. Para cubrir toda la zona de la cabeza para que no se escape el pelo, átala, sujeta ambas tiras y ajusta al tamaño de la cabeza. Cubrir toda el área de la cabeza. 
         
           .col-md-6
             figure
@@ -317,8 +323,11 @@
                 .lista-ol--cuadro__vineta
                   span 4
                 | <b>Forma de colocarse: </b>
-                <br>
-              |  Sostenga cada pata de las gafas con ambas manos y levántelas hacia su cara. Colócalos directamente sobre la nariz.
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Sostenga cada pata de las gafas con ambas manos y levántelas hacia su cara. Colócalos directamente sobre la nariz.
                  
         
           .col-md-6
@@ -328,7 +337,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 <i>Sistema Respiratorio</i>
+            h4.mb-3 <i>Sistema respiratorio</i>
             p.mb-2 Se sugiere usar una máscara facial si se encuentra en un entorno con partículas en el aire, como polvo de algodón o cemento y otras partículas de piezas pulidas.
             ol.lista-ol--cuadro
               li
@@ -351,8 +360,14 @@
                 .lista-ol--cuadro__vineta
                   span 5
                 | <b>Forma de colocarse: </b>
-                <br>
-              |  Retire la máscara de la bolsa y salga de la alianza. Primero, ate una cinta o elástico alrededor del centro de la cabeza y el cuello.
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Retire la máscara de la bolsa y salga de la alianza. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Primero, ate una cinta o elástico alrededor del centro de la cabeza y el cuello.
                  
         
           .col-md-6
@@ -363,12 +378,13 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4.mb-3 <i>Oídos</i>
-            p.mb-2 Se recomienda el uso de tapa oídos tipo Copa u Orejeras, los cuales atenúan el ruido 33 dB aproximadamente. Cubren la totalidad de la oreja. 
+            p.mb-2 Se recomienda el uso de tapaoidos Copa u Orejeras, los cuales atenúan el ruido 33 dB aproximadamente, y cubren la totalidad de la oreja.
+
             ol.lista-ol--cuadro
               li
                 .lista-ol--cuadro__vineta
                   span 1
-                | Se debe inspeccionar verificar que no estén dañados.    
+                | Se debe inspeccionar y verificar que no estén dañados.    
               li 
                 .lista-ol--cuadro__vineta
                   span 2
@@ -385,10 +401,20 @@
                 .lista-ol--cuadro__vineta
                   span 5
                 | <b>Forma de colocarse: </b>
-                <br>
-              p.mb-4  Deben encerrar las orejas completamente formando un cierre hermético con la cabeza. Ajuste las copas para que las almohadillas se presionen uniformemente alrededor de la oreja para una reducción de ruido óptima.
-              p.mb-0 Aparte el cabello para evitar que quede entre las almohadillas y la cabeza.
-              p No use tapas u otros accesorios que puedan interferir con el sello.
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Deben encerrar las orejas completamente formando un cierre hermético con la cabeza. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Ajuste las copas para que las almohadillas se presionen uniformemente alrededor de la oreja para una reducción de ruido óptima. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Aparte el cabello para evitar que quede entre las almohadillas y la cabeza. 
+                  li 
+                    i.fas.fa-angle-right
+                    | No use tapas u otros accesorios que puedan interferir con el sello.
 
                  
         
@@ -417,13 +443,14 @@
                 .lista-ol--cuadro__vineta
                   span 4
                 | <b>Forma de colocarse: </b>
-                <br>
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Introduce la mano dentro del guante. 
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Extienda los guantes para que cubran la parte del puño.
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Introduce la mano dentro del guante. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Extienda los guantes para que cubran la parte del puño.
 
                  
         
@@ -440,11 +467,11 @@
               li
                 .lista-ol--cuadro__vineta
                   span 1
-                | Protección térmica hasta 150 °C    
+                | Protección térmica hasta 150 °C.    
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Interior y exterior del guante lavables para una mejor higiene 
+                | Interior y exterior del guante lavables para una mejor higiene. 
               li 
                 .lista-ol--cuadro__vineta
                   span 3
@@ -472,8 +499,8 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4.mb-3 <i>Píes </i>
-            p.mb-2 Se recomienda el uso de botas de seguridad Impermeables: 
+            h4.mb-3 <i>Pies </i>
+            p.mb-2 Se recomienda el uso de botas de seguridad impermeables: 
             ol.lista-ol--cuadro
               li
                 .lista-ol--cuadro__vineta
@@ -495,19 +522,20 @@
                 .lista-ol--cuadro__vineta
                   span 5
                 | <b>Forma de colocarse: </b>
-                <br>
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Se deben colocar los calcetines.  
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Verificar que no haya ningún animal u objeto extraño dentro de las botas. 
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Introduzca cada uno de los pies dentro de la bota. 
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | El pantalón o el overol debe quedar dentro de la bota.
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Se deben colocar los calcetines. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Verificar que no haya ningún animal u objeto extraño dentro de las botas.  
+                  li 
+                    i.fas.fa-angle-right
+                    | Introduzca cada uno de los pies dentro de la bota.  
+                  li 
+                    i.fas.fa-angle-right
+                    | El pantalón o el overol debe quedar dentro de la bota.
 
                  
         
@@ -542,16 +570,17 @@
                 .lista-ol--cuadro__vineta
                   span 5
                 | <b>Forma de colocarse: </b>
-                <br>
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Verificar que sea la talla adecuada.  
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Se debe introducir las piernas en la parte del pantalón, posteriormente el tronco y los brazos de tal manera que cubra todo el cuerpo.  
-              p 
-                i.fas.fa-circle.fas-circulo.me-2.text-small
-                | Cerrar cremalleras o broches. 
+              span
+                ul.lista-ul.ms-5
+                  li 
+                    i.fas.fa-angle-right
+                    | Verificar que sea la talla adecuada. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Se debe introducir las piernas en la parte del pantalón, posteriormente el tronco y los brazos de tal manera que cubra todo el cuerpo. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Cerrar cremalleras o broches. 
 
                  
         
@@ -577,8 +606,7 @@
 
           .row.justify-content-around.align-items-center(titulo="Resolución 2674 de 2013")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Establece los requisitos y contextos bajo las cuales el Instituto nacional de medicamentos y alimentos – INVIMA Como autoridad de salud pública, debe emitir tarjetas, permisos o informes sanitarios.
-          
+              p.mb-4 Establece los requisitos y contextos bajo las cuales el Instituto Nacional de Medicamentos y Alimentos (INVIMA), como autoridad de salud pública, debe emitir tarjetas, permisos o informes sanitarios.
 
           .row.justify-content-around.align-items-center(titulo="Decreto 3075 de 1997")
             .col-md-12.mb-4.mb-md-0

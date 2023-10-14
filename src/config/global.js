@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Cristalización y procedimiento de ajustes',
     descripcionCurso:
-      'Este componente formativo aborda las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables adicionales, las cuales algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como parte de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
+      'Este componente formativo aborda las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables variables adicionales; algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como parte de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
@@ -165,7 +165,7 @@ export default {
     {
       termino: 'Temperatura de almacenamiento',
       significado:
-        'magnitud para medir la energía cinética a la que se mantiene el almacenamiento de la panela, cuando la temperatura llega a 30C se acelera los cambios de color y dureza de las panelas y favorece el crecimiento de hongos en productos de higroscopicidad alta.',
+        'magnitud para medir la energía cinética a la que se mantiene el almacenamiento de la panela, cuando la temperatura llega a 30 °C se acelera los cambios de color y dureza de las panelas y favorece el crecimiento de hongos en productos de higroscopicidad alta.',
     },
     {
       termino: 'Trasiego',
@@ -181,12 +181,14 @@ export default {
     {
       referencia:
         'Decreto 1774 de 2004. [Presidencia de la República]. Por el cual se crea la Comisión Nacional Intersectorial para la Vigilancia de la Calidad de la Panela. Junio 2 de 2004.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=64558',
     },
     {
       referencia:
         'Decreto 3075 de 1997. [Presidencia de la República]. Por la cual se reglamenta parcialmente la Ley 09 de 1979 y se dictan otras disposiciones, en materia de salud. Diciembre 23 de 1997.',
-      link: '',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203075%20DE%201997.pdf',
     },
     {
       referencia: 'Díaz, D. (s.f.). <i>Producción de panela.</i>',
@@ -213,7 +215,8 @@ export default {
     {
       referencia:
         'Granja, M. & Granja, J. (2013).<i> Producción de panela granulada.</i> San Gerónimo de los Andes Ecuatorianos.',
-      link: '',
+      link:
+        'https://www.academia.edu/29924092/Producci%C3%B3n_de_Panela_Granulada',
     },
     {
       referencia:
@@ -241,10 +244,14 @@ export default {
     {
       referencia:
         'Resolución 779 de 2006. [Ministerio de la Protección Social]. Por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones. Marzo 17 de 2006.',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-779-de-2006.pdf',
     },
     {
       referencia:
         'Resolución 2674 de 2013. [Ministerio de Salud y Protección Social]. Por la cual se establecen los requisitos sanitarios que deben cumplir las personas naturales y/o jurídicas que ejercen actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos y materias primas de alimentos y los requisitos para la notificación, permiso o registro sanitario de los alimentos, según el riesgo en salud pública, con el fin de proteger la vida y la salud de las personas. Julio 22 de 2013.',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-2674-de-2013.pdf',
     },
     {
       referencia:
