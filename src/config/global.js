@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Cristalización y procedimiento de ajustes',
     descripcionCurso:
-      'Este componente formativo aborda las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables variables adicionales; algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como parte de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
+      'Este componente formativo aborda las principales variables que afectan la calidad fisicoquímica, microbiológica y organoléptica de la panela, como producto y proceso que depende de variables adicionales; algunas requieren control inicial, mientras que otras durante todo el proceso. Asimismo, se aborda la normativa vigente y las medidas consideradas como parte de las buenas prácticas agrícolas (BPA) y la mejora de equipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
