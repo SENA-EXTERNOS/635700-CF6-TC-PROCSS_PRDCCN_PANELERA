@@ -199,7 +199,7 @@ export default {
       referencia:
         'Fiestas, K., Santos, I., Banda, S., Valdiviezo, W. & Arellano, K. (2015). <i>Diseño de una línea de producción de panela granulada.</i>',
       link:
-        'https://pirhua.udep.edu.pe/bitstream/handle/11042/2344/4._PYT__Informe_Final__Panela.pdf?sequence=1&isAllowed=y',
+        'https://www.coursehero.com/file/56716491/diseno-de-una-linea-de-produccion-de-panela-granuladapdf/',
     },
     {
       referencia:
